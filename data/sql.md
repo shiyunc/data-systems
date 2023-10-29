@@ -13,6 +13,8 @@ Query from a specific column
       FROM table_name
       WHERE condition;
 
+Note: WHERE - filter
+
 - UPDATE
 
         UPDATE table_name
@@ -54,12 +56,44 @@ Add
 Delete
 
     ALTER TABLE table_name
-    DROP COLUMN column_name;
+    DROP COLUMN column_name1;
 
 Rename
 
     ALTER TABLE table_name
     RENAME COLUMN old_name to new_name;
+
+- SELECT DISTINCT: different values
+
+        SELECT DISTINCT column_name 
+        FROM table_name;
+
+- ORDER BY: sort
+
+         SELECT column1, column2,
+         FROM table_name
+         ORDER BY column1, column2, ASC|DESC;
+
+
+- GROUP BY
+
+        SELECT column_name  
+        FROM table_name
+        WHERE condition
+        GROUP BY column_name
+
+- AND, OR, NOT
+
+         SELECT column_name1, column_name2,
+         FROM table_name
+         WHERE NOT condition;
+
+- Min, Max
+
+        SELECT MIN(column_name)
+        FROM table_name
+        WHERE condition;
+
 
 <br/>
 <br/>
