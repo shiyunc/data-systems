@@ -53,8 +53,8 @@ Add
 
 Delete
 
-    ALTER TABLE Customers
-    DROP COLUMN Email;
+    ALTER TABLE table_name
+    DROP COLUMN column_name;
 
 Rename
 
