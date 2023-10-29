@@ -42,7 +42,7 @@ Create Database
 
     CREATE DATABASE database_name;
 
-Note: VARCHAR(string), BOOL, int, FLOAT, DATETIME
+Note: VARCHAR, BOOL, INT, FLOAT, DATETIME
 
 - ALTER: modify
 
