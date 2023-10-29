@@ -88,7 +88,7 @@ Rename
          FROM table_name
          WHERE NOT condition;
 
-- Min, Max
+- MIN, MAX
 
         SELECT MIN(column_name)
         FROM table_name
