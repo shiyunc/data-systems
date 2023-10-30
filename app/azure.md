@@ -6,8 +6,6 @@ Microsoft's Azure is a public cloud computing platform, providing cloud services
 
 ![Screenshot 2023-10-30 at 10 20 31 AM](https://github.com/shiyunc/app-data/assets/48885389/ddca12e8-f952-44d3-ac2c-76095a077ddc)
 
-What is cloud computing?
-
 Cloud computing is the delivery of computing services storeing and accessing data over the internet, including servers, storage, databases, networking, software, analytics, and intelligence. There are three methods for cloud deployment:
 
 1. Public
