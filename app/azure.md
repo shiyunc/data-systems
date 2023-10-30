@@ -12,7 +12,7 @@ Cloud computing is the delivery of computing services of storing and accessing d
 2. Private
 3. Hybrid
 
-Cloud computing has three main cloud service models. It is also known as "shared responsibility model" which the user responsibility depends on the cloud service type: 
+Azure cloud computing provides three main cloud service models. It is also known as "shared responsibility model" which the user responsibility depends on the cloud service type: 
 
 1. SaaS (software as a service) > End users
 2. PaaS (platform as a service) > Application developers
