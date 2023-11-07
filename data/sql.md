@@ -10,10 +10,13 @@ Query from all columns
 Query from a specific column
 
       SELECT column_name1, column_name2
-      FROM table_name
-      WHERE condition;
+      FROM table_name;
 
-Note: WHERE - filter
+WHERE is used to filter specific conditions such as =, <, >, and LIKE
+
+      SELECT column_name1, column_name2
+      FROM table_name
+      WHERE column_name1 > condition;
 
 - UPDATE
 
