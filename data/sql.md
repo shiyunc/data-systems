@@ -21,8 +21,8 @@ Query from a specific column
 - UPDATE
 
         UPDATE table_name
-        SET column_name1 = new_value1, 
-        WHERE condition;
+        SET column_name2 = new_value2, 
+        WHERE column_name1 = condition;
 
 - DELETE
 
