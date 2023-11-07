@@ -12,7 +12,7 @@ Query from a specific column
       SELECT column_name1, column_name2
       FROM table_name;
 
-WHERE is used to filter specific conditions such as =, <, >, and LIKE
+<code> WHERE </code> is used to filter specific conditions such as =, <, >, and LIKE
 
       SELECT column_name1, column_name2
       FROM table_name
@@ -77,7 +77,6 @@ Rename
          FROM table_name
          ORDER BY column1, column2, ASC|DESC;
 
-
 - GROUP BY
 
         SELECT column_name  
@@ -90,6 +89,12 @@ Rename
          SELECT column_name1, column_name2,
          FROM table_name
          WHERE NOT condition;
+
+- COUNT, SUM, AVG
+          
+         SELECT COUNT(column_name)
+         FROM table_name
+         WHERE condition;
 
 - MIN, MAX
 
