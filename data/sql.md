@@ -77,6 +77,11 @@ Rename
          FROM table_name
          ORDER BY column1, column2, ASC|DESC;
 
+         SELECT column_name
+         FROM table_name
+         WHERE criteria
+         ORDER BY column_name;
+
 - GROUP BY
 
         SELECT column_name  
